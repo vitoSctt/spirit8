@@ -1,0 +1,78 @@
+@media screen and (max-width: 480px) {
+  nav {
+    -webkit-flex-flow: wrap;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap;
+    text-align: center; }
+    nav .logo {
+      -webkit-box-flex: 100%;
+      -webkit-flex: 100%;
+          -ms-flex: 100%;
+              flex: 100%;
+      margin-right: 0; }
+    nav .header-menu {
+      -webkit-box-flex: 100%;
+      -webkit-flex: 100%;
+          -ms-flex: 100%;
+              flex: 100%;
+      text-align: center;
+      margin-right: 4rem; }
+      nav .header-menu .menu-item {
+        margin-left: 0; }
+  .header-content {
+    text-align: center; }
+    .header-content .header-title {
+      font-size: 3rem; }
+    .header-content .header-descr {
+      margin-top: 2rem;
+      font-size: 1.6rem; }
+  .about-us .box {
+    -webkit-flex-flow: wrap;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap;
+    text-align: center; }
+  .about-us .about-img {
+    width: 100%;
+    height: 100%;
+    margin-left: 40px; }
+  .about-us .about-content {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 4rem; }
+  .about-us .about-content-list {
+    text-align: left; }
+    .about-us .about-content-list__item {
+      margin-top: 1rem; }
+  .our-team {
+    text-align: center; }
+  .our-works-filter .filter-name {
+    width: 100%; }
+  .our-works-filter .filter-menu {
+    width: 100%;
+    -webkit-flex-flow: wrap;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap; }
+  .our-clients {
+    text-align: center; }
+  .services-items {
+    -webkit-flex-flow: wrap;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap; }
+  .team-people {
+    -webkit-flex-flow: wrap;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap; }
+  .brands img {
+    width: 100%; }
+  .our-works-filter {
+    display: none; }
+  .our-works-items {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+    .our-works-items .our-works-items__items {
+      height: 100%; }
+  .responsive-title {
+    padding-bottom: 0; } }
